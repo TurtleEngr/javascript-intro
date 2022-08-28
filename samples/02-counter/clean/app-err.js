@@ -13,7 +13,7 @@ btnList.forEach(function (btn) {
       count--;
     else if (styles.contains("increase"))
       count++;
-    else if (styles.contains("reset"))
+    else if (styles.contains("XXXXreset"))
       count = 0;
     else
       alert("Code defect 1");
