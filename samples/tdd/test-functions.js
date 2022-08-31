@@ -1,3 +1,5 @@
+"use strict";
+
 // Positive tests
 QUnit.module('fAdd OK');
 

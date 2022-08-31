@@ -1,6 +1,7 @@
 // Better error handling with try/catch and stack dump
+"use strict";
 
-// set inital value to zero
+// set inital value
 let count = 0;
 // select value and buttons
 const value = document.querySelector("#value");

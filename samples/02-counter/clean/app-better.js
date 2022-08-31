@@ -1,4 +1,5 @@
 // Manage button names
+"use strict";
 
 let count = 0;
 

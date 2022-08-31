@@ -1,3 +1,5 @@
+"use strict";
+
 // First version, add two numbers
 function fAdd_1(pA, pB) {
   return pA + pB;
