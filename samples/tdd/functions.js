@@ -26,10 +26,15 @@ function fAdd_3(pA, pB) {
 }
 
 // Forth version, cleanup
-function fAdd(pA, pB) {
+function fAdd_4(pA, pB) {
   if (isNaN(pA = Number(pA)))
     throw new Error("First arg is not a number");
   if (isNaN(pB = Number(pB)))
     throw new Error("Second arg is not a number");
   return pA + pB;
+}
+
+// This calls the fAdd version to be tested.
+function fAdd(pA, pB) {
+  return fAdd_4(pA, pB);
 }

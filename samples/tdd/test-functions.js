@@ -12,6 +12,7 @@ QUnit.test('Test with numbers as strings, ver2', assert => {
   assert.equal(fAdd("1", 2), 3);
   assert.equal(fAdd("1", "2"), 3);
   assert.equal(fAdd("1.5", 2.5), 4);
+  assert.equal(fAdd("1.5", 2.7), 4.2);
 });
 
 // Negative tests
