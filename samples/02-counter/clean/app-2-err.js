@@ -28,8 +28,7 @@ btnList.forEach(function (btn) {
         value.style.color = "#222";
       else
         throw new Error("count is not a number");
-    }
-    catch (err) {
+    } catch (err) {
       alert(err.stack);
     }
     value.textContent = count;
